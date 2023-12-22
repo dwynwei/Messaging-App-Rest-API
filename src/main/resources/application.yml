@@ -1,0 +1,52 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            provider: google 
+            client-id: [GCP CLIENT ID]
+            client-secret: [GCP CLIENT SECRET]
+            scope:
+              - email
+              - profile
+            redirect-uri: https://many-donkeys-begin.loca.lt/login/oauth2/code/google # LOCALTUNNEL ENDPONT OAUTH
+
+  cloud:
+    gcp:
+      datastore:
+        namespace: messaging-app-namespace
+      project-id: messaging-app-405311
+      credentials:
+        location: classpath:keys/GOOGLE_APPLICATION_CREDENTIALS.json
+        
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: [YOUR EMAIL ADRESS]
+    password: [YOUR SECURED EMAIL PASSWORD]
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+springdoc:
+  swagger-ui:
+    enabled: true
+    
+server:
+  port: 8085
+  ssl:
+    enabled: false
+
+gcp:
+  project-id: messaging-app-405311
+  location-id: us-west1
+  queue-name: message-tasks-demo
+  
+api:
+  key: "1234567890"
+  expected-key: "1234567890"
+   
