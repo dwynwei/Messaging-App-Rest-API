@@ -16,9 +16,9 @@ spring:
     gcp:
       datastore:
         namespace: messaging-app-namespace
-      project-id: messaging-app-405311
+      project-id: [GCP Project ID]
       credentials:
-        location: classpath:keys/GOOGLE_APPLICATION_CREDENTIALS.json
+        location: classpath:keys/GOOGLE_APPLICATION_CREDENTIALS.json #CREDENTIALS PATH GCP
         
   mail:
     host: smtp.gmail.com
