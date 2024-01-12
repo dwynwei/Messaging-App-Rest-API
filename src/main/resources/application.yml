@@ -42,7 +42,7 @@ server:
     enabled: false
 
 gcp:
-  project-id: messaging-app-405311
+  project-id: [GCP Project ID]
   location-id: us-west1
   queue-name: message-tasks-demo
   
