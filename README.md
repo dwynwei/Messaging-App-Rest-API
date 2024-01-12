@@ -163,7 +163,7 @@ Contributions to the Messaging App project are always welcome. Please follow the
 
 ## License
 
-This project is licensed under the MIT License. For more details, see the [LICENSE.md](LICENSE.md) file.
+This project is licensed under the MIT License. For more details, see the [LICENSE.md](LICENSE) file.
 
 **Developed by dwynwei**  
 Connect with me on [LinkedIn](https://www.linkedin.com/in/cagsahin/)
