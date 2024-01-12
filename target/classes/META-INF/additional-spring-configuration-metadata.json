@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "spring.cloud.gcp.location-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gcp.location-id'"
+  },
+  {
+    "name": "gcp.project-id",
+    "type": "java.lang.String",
+    "description": "A description for 'gcp.project-id'"
+  },
+  {
+    "name": "gcp.location-id",
+    "type": "java.lang.String",
+    "description": "A description for 'gcp.location-id'"
+  },
+  {
+    "name": "gcp.queue-name",
+    "type": "java.lang.String",
+    "description": "A description for 'gcp.queue-name'"
+  },
+  {
+    "name": "spring.cloud.gcp.credentials.location",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gcp.credentials.location'"
+  },
+  {
+    "name": "gcp.project-id",
+    "type": "java.lang.String",
+    "description": "A description for 'gcp.project-id'"
+  },
+  {
+    "name": "api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'api.key'"
+  },
+  {
+    "name": "api.expected-key",
+    "type": "java.lang.String",
+    "description": "A description for 'api.expected-key'"
+  }
+]}
